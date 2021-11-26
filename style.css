@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins'
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.purple {
+    color :#5E3AEE;   
+}
+
+header .purple {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+#firstbloc {
+    margin-left: 33px;
+    margin-right: 33px;
+    background-color:#F0F0F5;
+}
+
+main h1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 34px;
+    padding-bottom: 0px;
+    margin:0 auto;
+}
+
+main h2 {
+    color:#696969;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 0px;
+    margin : 0 auto;
+
+}
+
+main p {
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.button {
+    width: 131px;
+    height: 32px;   
+    margin  -right: 89px;
+    margin-left: 89px;
+    margin-top :10px;
+}
+
+#button_contact {
+   background-color: white; 
+   border: none;
+}
+
+#button_projects {
+    background-color: #5E3AEE; 
+    border: none;
+    color: white;
+}
