@@ -178,9 +178,14 @@ main p {
     color : white;
     background-color: #5E3AEE;
     width: 375px;
-    height: 576px;
-    text-align: center;
+    height: 576px;  
+    text-align: center;  
 }
+
+form {
+    width: 242px;
+    margin: 0 auto;
+    text-align: left;}
 
 .contact h1 {
     color:white;
@@ -190,6 +195,7 @@ main p {
     padding-bottom: 25px;
     font-size: 33px;
     font-weight: 800;
+    text-align: center;
 }
 
 footer {
@@ -208,6 +214,9 @@ form label {
     width: 238px;
     height: 89.73px;
     margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border :none;
+    text-align: center;
 }
 
 #submit {
@@ -216,9 +225,20 @@ form label {
     font-weight: 600;
     width: 238px;
     height: 34.05px;
+    text-align: center;
+    border: none;
 }
 
 #name, #mail {
     width: 238px;
     height: 34.05px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border :none;
+    text-align: center;
+
+}
+
+.svg {
+    display: block;
+    margin-left : 50px;
 }
