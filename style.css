@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    font-family: 'Poppins'
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -50,6 +50,7 @@ main h2 {
 
 }
 
+
 main p {
     text-align: center;
     font-size: 10px;
@@ -67,6 +68,7 @@ main p {
     box-shadow: -4px 4px 4px grey;
     font-size: 12px;
     font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
 }
 
 #button_contact {
@@ -124,21 +126,99 @@ main p {
     padding-top: 50px;
 }
 
-#rectanglepurple {
+.aboutme #rectanglepurple {
        /* Rectangle purple */
+    display:block;
+    margin : 0 auto;
     width: 205px;
     height: 27px;
     background: #5E3AEE;
-    padding: 0 auto;
-    margin-left: 0;
-    margin-right: 0;
-
 }
 
 .aboutme h1 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.aboutme p {
+    text-align : center;
+    font-size: 18px;
+}
+
+.aboutme #git {
+    font-weight: 700;
+}
+
+.aboutme #smartphone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.skills {
+    margin-bottom: 60px;
+}
+
+.skills h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact {
+    display: block;
+    color : white;
+    background-color: #5E3AEE;
+    width: 375px;
+    height: 576px;
+    text-align: center;
+}
+
+.contact h1 {
+    color:white;
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 33px;
+    font-weight: 800;
+}
+
+footer {
+    color: #696969;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form label {
+    font-size: 12px;
     text-align: left;
 }
 
-.aboutme {
-    text-align : left;
+#text {
+    width: 238px;
+    height: 89.73px;
+    margin-bottom: 15px;
+}
+
+#submit {
+    background-color: white;
+    font-size: 12px;
+    font-weight: 600;
+    width: 238px;
+    height: 34.05px;
+}
+
+#name, #mail {
+    width: 238px;
+    height: 34.05px;
 }
