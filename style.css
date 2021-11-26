@@ -30,6 +30,7 @@ header .purple {
     margin-left: 33px;
     margin-right: 33px;
     background-color:#F0F0F5;
+    margin-bottom: 45px;
 }
 
 main h1{
@@ -53,25 +54,91 @@ main p {
     text-align: center;
     font-size: 10px;
     margin: 0 auto;
-    padding-left: 33px;
-    padding-right: 33px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .button {
     width: 131px;
     height: 32px;   
-    margin  -right: 89px;
+    margin-right: 89px;
     margin-left: 89px;
     margin-top :10px;
+    box-shadow: -4px 4px 4px grey;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 #button_contact {
    background-color: white; 
    border: none;
+   box-shadow: 25px red;
 }
 
 #button_projects {
     background-color: #5E3AEE; 
     border: none;
     color: white;
+}
+
+.images {
+    display: block;
+    width: 209px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.numbers_lines {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left : 10px;
+    padding-top: 15px;
+    border-top: 3px solid #F0F0F5;
+}
+
+.numbers {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.numbers_description {
+    font-size: 8px;
+    color : #BFB8B8;
+    font-weight: normal;
+}
+
+#second_line {
+    border-bottom: 3px solid #F0F0F5;
+    margin-bottom: 50px;
+}
+
+.aboutme {
+    background-color: #0F1221;
+    color:white;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+#rectanglepurple {
+       /* Rectangle purple */
+    width: 205px;
+    height: 27px;
+    background: #5E3AEE;
+    padding: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.aboutme h1 {
+    text-align: left;
+}
+
+.aboutme {
+    text-align : left;
 }
